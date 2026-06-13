@@ -8,6 +8,7 @@ import type {
 } from "../types";
 
 import {
+  logo,
   mobile,
   backend,
   creator,
@@ -127,6 +128,20 @@ const experiences: TExperience[] = [
       "Developed and tested machine learning models using Python and real-world datasets.",
       "Performed data cleaning, preprocessing, training, and model evaluation for improved outputs.",
       "Gained practical exposure to machine learning workflows and industry-level implementation practices.",
+    ],
+  },
+  {
+    title: "Achievements & Certifications",
+    companyName: "Professional & Academic Milestones",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "2023 - Present",
+    points: [
+      "Qualified GATE (Graduate Aptitude Test in Engineering) Examination.",
+      "Earned HackerRank Python (Basic) Certification. <a href='/hackerrank_python_certificate.pdf' target='_blank' rel='noopener noreferrer' style='color: #915eff; font-weight: bold; text-decoration: underline;'>[View Certificate]</a>",
+      "Completed Coursera Supervised Machine Learning Certification (DeepLearning.AI & Stanford Online). <a href='/coursera_ml_certificate.pdf' target='_blank' rel='noopener noreferrer' style='color: #915eff; font-weight: bold; text-decoration: underline;'>[View Certificate]</a>",
+      "Completed Udemy Machine Learning - Fundamental of Python Machine Learning Course. <a href='/udemy_ml_certificate.pdf' target='_blank' rel='noopener noreferrer' style='color: #915eff; font-weight: bold; text-decoration: underline;'>[View Certificate]</a>",
+      "Completed Pickl.AI & HCST Generative AI & AI Native Development Course. <a href='/pickl_ai_certificate.pdf' target='_blank' rel='noopener noreferrer' style='color: #915eff; font-weight: bold; text-decoration: underline;'>[View Certificate]</a>",
     ],
   },
 ];

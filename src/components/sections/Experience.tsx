@@ -47,9 +47,8 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
           <li
             key={`experience-point-${index}`}
             className="text-white-100 pl-1 text-[14px] tracking-wider"
-          >
-            {point}
-          </li>
+            dangerouslySetInnerHTML={{ __html: point }}
+          />
         ))}
       </ul>
     </VerticalTimelineElement>
